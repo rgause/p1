@@ -44,6 +44,8 @@
                   tableName="tenant_user">
             <column name="id" type="numeric"/>
             <column name="active" type="boolean"/>
+            <column name="lan_user_id" type="numeric"/>
+            <column name="tenant_id" type="numeric"/>
             <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
         </loadData>
     </changeSet>

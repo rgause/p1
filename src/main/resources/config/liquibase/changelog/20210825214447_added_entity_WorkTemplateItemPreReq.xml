@@ -41,6 +41,7 @@
                   tableName="work_template_item_pre_req">
             <column name="id" type="numeric"/>
             <column name="pre_requisite_item" type="numeric"/>
+            <column name="work_template_item_id" type="numeric"/>
             <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
         </loadData>
     </changeSet>

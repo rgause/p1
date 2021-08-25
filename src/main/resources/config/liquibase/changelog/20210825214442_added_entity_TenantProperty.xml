@@ -44,6 +44,8 @@
                   tableName="tenant_property">
             <column name="id" type="numeric"/>
             <column name="value" type="string"/>
+            <column name="tenant_id" type="numeric"/>
+            <column name="tenant_property_key_id" type="numeric"/>
             <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
         </loadData>
     </changeSet>

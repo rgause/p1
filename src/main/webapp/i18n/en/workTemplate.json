@@ -1,0 +1,25 @@
+{
+  "p1App": {
+    "workTemplate": {
+      "home": {
+        "title": "Work Templates",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Work Template",
+        "createOrEditLabel": "Create or edit a Work Template",
+        "notFound": "No Work Templates found"
+      },
+      "created": "A new Work Template is created with identifier {{ param }}",
+      "updated": "A Work Template is updated with identifier {{ param }}",
+      "deleted": "A Work Template is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Work Template {{ id }}?"
+      },
+      "detail": {
+        "title": "Work Template"
+      },
+      "id": "ID",
+      "name": "Name",
+      "workTemplateItem": "Work Template Item"
+    }
+  }
+}

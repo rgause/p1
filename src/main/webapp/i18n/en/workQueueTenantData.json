@@ -1,0 +1,26 @@
+{
+  "p1App": {
+    "workQueueTenantData": {
+      "home": {
+        "title": "Work Queue Tenant Data",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Work Queue Tenant Data",
+        "createOrEditLabel": "Create or edit a Work Queue Tenant Data",
+        "notFound": "No Work Queue Tenant Data found"
+      },
+      "created": "A new Work Queue Tenant Data is created with identifier {{ param }}",
+      "updated": "A Work Queue Tenant Data is updated with identifier {{ param }}",
+      "deleted": "A Work Queue Tenant Data is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Work Queue Tenant Data {{ id }}?"
+      },
+      "detail": {
+        "title": "Work Queue Tenant Data"
+      },
+      "id": "ID",
+      "data": "Data",
+      "type": "Type",
+      "workQueueTenant": "Work Queue Tenant"
+    }
+  }
+}

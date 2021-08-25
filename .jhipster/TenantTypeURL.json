@@ -1,0 +1,28 @@
+{
+  "name": "TenantTypeURL",
+  "fields": [
+    {
+      "fieldName": "url",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "tenantType",
+      "otherEntityRelationshipName": "tenantTypeURL",
+      "relationshipName": "tenantType"
+    }
+  ],
+  "entityTableName": "tenant_type_url",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210825214438"
+}

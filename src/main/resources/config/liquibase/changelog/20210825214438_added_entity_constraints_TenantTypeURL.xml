@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity TenantTypeURL.
+    -->
+    <changeSet id="20210825214438-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="tenant_type_id"
+                                 baseTableName="tenant_type_url"
+                                 constraintName="fk_tenant_type_url__tenant_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tenant_type"/>
+    </changeSet>
+</databaseChangeLog>

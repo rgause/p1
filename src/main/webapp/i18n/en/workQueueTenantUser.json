@@ -1,0 +1,32 @@
+{
+  "p1App": {
+    "workQueueTenantUser": {
+      "home": {
+        "title": "Work Queue Tenant Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Work Queue Tenant User",
+        "createOrEditLabel": "Create or edit a Work Queue Tenant User",
+        "notFound": "No Work Queue Tenant Users found"
+      },
+      "created": "A new Work Queue Tenant User is created with identifier {{ param }}",
+      "updated": "A Work Queue Tenant User is updated with identifier {{ param }}",
+      "deleted": "A Work Queue Tenant User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Work Queue Tenant User {{ id }}?"
+      },
+      "detail": {
+        "title": "Work Queue Tenant User"
+      },
+      "id": "ID",
+      "task": "Task",
+      "requiredToComplete": "Required To Complete",
+      "dateCreated": "Date Created",
+      "dateCancelled": "Date Cancelled",
+      "dateCompleted": "Date Completed",
+      "sequenceOrder": "Sequence Order",
+      "workQueueTenantUserData": "Work Queue Tenant User Data",
+      "workQueueTenantUserPreReq": "Work Queue Tenant User Pre Req",
+      "tenantUser": "Tenant User"
+    }
+  }
+}

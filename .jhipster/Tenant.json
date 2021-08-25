@@ -1,0 +1,51 @@
+{
+  "name": "Tenant",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tenantProperty",
+      "otherEntityRelationshipName": "tenant",
+      "relationshipName": "tenantProperty"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tenantUser",
+      "otherEntityRelationshipName": "tenant",
+      "relationshipName": "tenantUser"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "workQueueTenant",
+      "otherEntityRelationshipName": "tenant",
+      "relationshipName": "workQueueTenant"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "tenantType",
+      "otherEntityRelationshipName": "tenant",
+      "relationshipName": "tenantType"
+    }
+  ],
+  "entityTableName": "tenant",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210825214437"
+}

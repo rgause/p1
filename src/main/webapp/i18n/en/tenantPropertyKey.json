@@ -1,0 +1,25 @@
+{
+  "p1App": {
+    "tenantPropertyKey": {
+      "home": {
+        "title": "Tenant Property Keys",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tenant Property Key",
+        "createOrEditLabel": "Create or edit a Tenant Property Key",
+        "notFound": "No Tenant Property Keys found"
+      },
+      "created": "A new Tenant Property Key is created with identifier {{ param }}",
+      "updated": "A Tenant Property Key is updated with identifier {{ param }}",
+      "deleted": "A Tenant Property Key is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tenant Property Key {{ id }}?"
+      },
+      "detail": {
+        "title": "Tenant Property Key"
+      },
+      "id": "ID",
+      "name": "Name",
+      "tenantProperty": "Tenant Property"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "p1App": {
+    "workTemplateItemPreReq": {
+      "home": {
+        "title": "Work Template Item Pre Reqs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Work Template Item Pre Req",
+        "createOrEditLabel": "Create or edit a Work Template Item Pre Req",
+        "notFound": "No Work Template Item Pre Reqs found"
+      },
+      "created": "A new Work Template Item Pre Req is created with identifier {{ param }}",
+      "updated": "A Work Template Item Pre Req is updated with identifier {{ param }}",
+      "deleted": "A Work Template Item Pre Req is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Work Template Item Pre Req {{ id }}?"
+      },
+      "detail": {
+        "title": "Work Template Item Pre Req"
+      },
+      "id": "ID",
+      "preRequisiteItem": "Pre Requisite Item",
+      "workTemplateItem": "Work Template Item"
+    }
+  }
+}

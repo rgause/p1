@@ -1,0 +1,25 @@
+{
+  "p1App": {
+    "tenantType": {
+      "home": {
+        "title": "Tenant Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tenant Type",
+        "createOrEditLabel": "Create or edit a Tenant Type",
+        "notFound": "No Tenant Types found"
+      },
+      "created": "A new Tenant Type is created with identifier {{ param }}",
+      "updated": "A Tenant Type is updated with identifier {{ param }}",
+      "deleted": "A Tenant Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tenant Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Tenant Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "tenantTypeURL": "Tenant Type URL"
+    }
+  }
+}

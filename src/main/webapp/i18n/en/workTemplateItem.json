@@ -1,0 +1,28 @@
+{
+  "p1App": {
+    "workTemplateItem": {
+      "home": {
+        "title": "Work Template Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Work Template Item",
+        "createOrEditLabel": "Create or edit a Work Template Item",
+        "notFound": "No Work Template Items found"
+      },
+      "created": "A new Work Template Item is created with identifier {{ param }}",
+      "updated": "A Work Template Item is updated with identifier {{ param }}",
+      "deleted": "A Work Template Item is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Work Template Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Work Template Item"
+      },
+      "id": "ID",
+      "task": "Task",
+      "requiredToComplete": "Required To Complete",
+      "sequenceOrder": "Sequence Order",
+      "workTemplateItemPreReq": "Work Template Item Pre Req",
+      "workTemplate": "Work Template"
+    }
+  }
+}

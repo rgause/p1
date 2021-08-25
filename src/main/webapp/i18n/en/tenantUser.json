@@ -1,0 +1,27 @@
+{
+  "p1App": {
+    "tenantUser": {
+      "home": {
+        "title": "Tenant Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Tenant User",
+        "createOrEditLabel": "Create or edit a Tenant User",
+        "notFound": "No Tenant Users found"
+      },
+      "created": "A new Tenant User is created with identifier {{ param }}",
+      "updated": "A Tenant User is updated with identifier {{ param }}",
+      "deleted": "A Tenant User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tenant User {{ id }}?"
+      },
+      "detail": {
+        "title": "Tenant User"
+      },
+      "id": "ID",
+      "active": "Active",
+      "workQueueTenantUser": "Work Queue Tenant User",
+      "lanUser": "Lan User",
+      "tenant": "Tenant"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "LanUser",
+  "fields": [
+    {
+      "fieldName": "lanId",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "pwpId",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tenantUser",
+      "otherEntityRelationshipName": "lanUser",
+      "relationshipName": "tenantUser"
+    }
+  ],
+  "entityTableName": "lan_user",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210825214443"
+}
